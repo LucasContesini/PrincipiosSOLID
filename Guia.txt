@@ -1,0 +1,33 @@
+Guia
+
+Explicar Classe e Objeto:
+	Criar Classe ContaBanco
+	Testar no Main
+
+Explicar Herança, Classe Abstrata, Polimorfismo e Interface:
+	Criar Classes ContaBancoCorrente e ContaBancoPoupanca
+	Deixar ContaBanco Abstrata
+	Testar no Main
+	Criar Interface IConta
+	Testar no Main
+	
+Explicar sobre Principios SOLID
+
+Principio da Resposabilidade Unica:
+	Criar Classes ContaBancoCorrenteNegocio e ContaBancoPoupancaNegocio
+	
+Principio do Aberto Fechado:
+	Criar Classe ContaBancoViolacaoOCP
+	
+Principio da Substituição de Liskov:
+	Criar Classes ContaBancoViolacaoLSP, ContaBancoCorrenteViolacaoLSP e ContaBancoPoupancaViolacaoLSP
+	Testar no Main
+	
+Principio da Segregação de Interface:
+	Criar Classe ContaBancoInvestimento
+	Dar exemplo de implementar IConta na Classe ContaBancoInvestimento
+	Criar Interfaces IContaCorrente, IContaPoupanca e IContaInvestimento
+
+Principio da Inversão de Dependência:
+	Criar Classes ContaBancoCorrenteNegocioDIP e ContaBancoPoupancaNegocioDIP
+	Criar Interface IContaCorrenteNegocio
